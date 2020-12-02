@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Shortener</title>
+  <link rel="stylesheet" href="/css/index.css" type="text/css">
+</head>
+
+<body>
+  <main>
+    <h1>URL Shortener</h1>
+    <form>
+      <div class="source">
+        <input type="url" placeholder="URL to Shorten">
+        <input type="submit" id="next">
+        <label for="next">&#xE001;</label>
+      </div>
+    </form>
+    <form>
+      <div class="inputs">
+        <select>
+          <option value="sans" selected>sans.ml</option>
+          <option value="wa">와.ml</option>
+          <option value="fdsf">fdsf.ml</option>
+          <option value="plag">plag.ml</option>
+        </select>
+        <span>/</span>
+        <input type="text" placeholder="Back-Half">
+        <input type="submit" id="shorten">
+        <label for="shorten">&#xE001;</label>
+      </div>
+    </form>
+  </main>
+  <script src="/js/index.js"></script>
+</body>
+
+</html>
